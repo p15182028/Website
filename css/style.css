@@ -2,9 +2,21 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 body {
     background-color: powderblue;
 }
+.section {
+  font-size: 42px;
+  text-align: center;
+  margin-top: 35px;
+  letter-spacing: 3px;
+  font-weight: 500;
+  color: #34495e;
+  text-transform: capitalize;
+}
+.menu-nav {
+          border-bottom: solid 1px
 h1 {
     color: blue;
 }
 p {
     color: red;
+    font-size: 24px;
 }
