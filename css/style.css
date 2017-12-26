@@ -1,7 +1,11 @@
 html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 body {
-    background-color: powderblue;
+    background-color: rgba(0,0,0,0.5);
 }
+.section h3 {
+
+}
+
 .section {
   font-size: 42px;
   text-align: center;
@@ -31,10 +35,11 @@ nav {
   border-bottom: solid 1px;
 }
 
-h1 {
-    color: blue;
+h1, h3 {
+    color: rgb(51,74,92);
 
 }
+
 
 .text-center {
   padding: 10px;
