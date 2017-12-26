@@ -10,13 +10,19 @@ body {
   font-weight: 500;
   color: #34495e;
   text-transform: capitalize;
+  border-bottom: solid 1px;
 }
 a {
   text-decoration: none;
   padding-bottom: 5px;
 }
 
-
+.visit {
+  border-bottom: solid 1px;
+}
+.activities {
+  border-bottom: solid 1px;
+}
 
 nav {
   padding: 15px 35px;
@@ -35,7 +41,7 @@ h1 {
 }
 p {
     color: black;
-    font-size: 24px;
+    font-size: 21px;
 }
 
 ul.form {
