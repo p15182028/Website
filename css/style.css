@@ -37,6 +37,13 @@ nav {
 
 h1 {
     color: blue;
+
+}
+
+.text-center {
+
+  padding: 10px;
+
 }
 p {
     color: black;
