@@ -63,5 +63,9 @@ a:hover, a:active {
 
 li {
   float: left;
+}
 
+video {
+  min-width: 100%;
+  min-height: 100%;
 }
