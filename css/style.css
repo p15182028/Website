@@ -2,6 +2,10 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 body {
     background-color: rgba(0,0,0,0.5);
 }
+.logo {
+  padding: 10px;
+}
+
 .section h3 {
 
 }
@@ -68,4 +72,5 @@ li {
 video {
   min-width: 100%;
   min-height: 100%;
+  max-width: 100%;
 }
