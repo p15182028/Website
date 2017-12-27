@@ -28,23 +28,32 @@ a {
   border-bottom: solid 1px;
 }
 
-nav {
-  padding: 15px 35px;
-  display: flex;
-  position: relative;
-  border-bottom: solid 1px;
-}
-
 h1, h3 {
     color: rgb(51,74,92);
 
 }
 
-
-.text-center {
-  padding: 10px;
-}
 p {
     color: black;
     font-size: 21px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+a:link a:visited {
+  display:block;
+  front-weight:bold;
+  color: #FFFFFF;
+  background-color: #98bf21;
+  width: 120px;
+}
+
+li {
+  float: left;
+
 }
