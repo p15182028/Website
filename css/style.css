@@ -1,9 +1,12 @@
 html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 body {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0);
 }
 .logo {
   padding: 10px;
+}
+h2 {
+  width: 40px;
 }
 
 .section h3 {
@@ -19,17 +22,11 @@ body {
   color: #34495e;
   text-transform: capitalize;
   border-bottom: solid 1px;
+  margin-bottom: 10px;
 }
 a {
   text-decoration: none;
   padding-bottom: 5px;
-}
-
-.visit {
-  border-bottom: solid 1px;
-}
-.activities {
-  border-bottom: solid 1px;
 }
 
 h1, h3 {
@@ -42,9 +39,14 @@ p {
     font-size: 21px;
 }
 
+nav {
+  background-color: rgb(51,74,92);
+}
+
 ul {
   list-style-type: none;
   margin: 0;
+  margin-left: 400px;
   padding: 0;
   overflow: hidden;
   /*background-color: #98bf21;*/
@@ -67,11 +69,45 @@ a:hover, a:active {
 }
 
 li {
-  float: right;
+  float: left;
 }
 
 video {
   min-width: 100%;
   min-height: 100%;
   max-width: 100%;
+}
+
+.wrap {
+  float: left;
+  width: 500px;
+}
+
+.visit {
+  float: right;
+  /*border-bottom: solid 1px;*/
+  width: 50%;
+}
+
+.wrapper {
+  float: right;
+  width: 500px;
+}
+
+.activities {
+  float: left;
+  /*border-bottom: solid 1px;*/
+  width: 50%;
+}
+
+img {
+
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 100%;
+  padding: 5px;
+}
+
+.contact {
+  width: 100px;
 }
