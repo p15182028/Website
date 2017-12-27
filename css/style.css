@@ -45,7 +45,7 @@ ul {
   overflow: hidden;
 }
 
-a:link a:visited {
+a:link, a:visited {
   display:block;
   front-weight:bold;
   color: #FFFFFF;
