@@ -41,28 +41,28 @@ JavaScript Error in console because when running on chrome, google says this is 
 
 
 # User Testing
-I had Mustafa Sami, Soyeb Patel and Mohammed Kharodia test the website, checking each link and button to ensure they were taking them to where they were clicking. I asked that they thoroughly test this and Ubayd noted that under 309px that some text would overlap. He advised that it would be a good idea to remedy this. Musab recommended that the contact form at the bottom could print a message to say message sent. Mohammed Kharodia advised that it was tedious to scroll to the top every time you got the bottom and a quick button to take the user to the top would help.
+Mustafa Sami, Soyeb Patel and Mohammed Kharodia test the website, checking each link and button to ensure they are responding as expected and giving their opinion on the usibility of the website. I asked that they thoroughly test this and Mustafa mentioned that when the screen is smaller than 480px some text starts to overlap. He suggested that this could be fixed by altering the size of he text. I took this input onboard to make my page more responsive and user friendly.
 
-![](issues/ubayd.jpg)
+![](issues/26168224_10215871565488573_2983871881287725764_n.jpg)
 
 # PARC and Accesibility
-The colour scheme was kept consistent throughout. It is clear there are 2-3 main colours across the website which keep the level of consistency.
-The colours chosen were gray white and dark gray this was because they contrast with each other well and make each other stand out.
-I have kept the sizing the same aswell and made sure their proximity i.e how close similar content is to each other. was in line with its definition
-I also repeated certain colours and themes to ensure that the the user had the best experience possible.
-
-In regards to accessibility there were many things implemented to ensure that there was ease of access for the masses. One of these were the alt tags in the images so that a blind person would be able to navigate around the website better. Another was the language choice to cater for many different languages as Leicester is a very diverse place. Another was the implementation of a button to take the user back to the top of the page. All these things combined helped with better accessibility and a better user experience.
+Colour scheme was kept consistent with 3 dominating colours as welll as teh genral theme of the site.
+The colours i decided to use and implement in the website layout and structure were grey white and dark grey as they contrast well and contain an element of nutrality.
+I have kept the sizing the same as well and made sure their proximity i.e how close similar content is to each other. was in line with its definition
+The sizing and proximity were kept the relatively the same over the page for similar content. This aids in making the user very quickly familiar and having a great experience on the website.
+In regards to accessibility there were many things implemented to ensure that there was ease of access for users accessing the site. One of which is the alt tags in the images so that a blind person would be able to navigate around the website better.
 
 
 # references
-code amended to suit the purposes of the website from W3Schools, Codepen and Labs. Some references have been listed below where chunks of code were borrowed or tools were used to help make the website.
+code amended to suit the purposes of the website from W3Schools, Codepen and Labs. Some references have been listed below from where i got inspiration and gathered some useful tips as well as learn a lot in the process of creating my website..
 
 https://validator.w3.org/
+https://codepen.io/-J0hn-/pen/XRqzqG
+https://codepen.io/madalintudose/pen/ILmAg?q=navigation+menu+&limit=all&type=type-pens
+https://www.youtube.com/watch?v=pRFulaWEePE&feature=youtu.be
+https://www.youtube.com/watch?v=JttTcnidSdQ&index=7&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU
+https://www.hexcolortool.com/#134e7c
 https://jigsaw.w3.org/css-validator
-https://codepen.io/cutiealice/pen/eZMXLj
-https://codepen.io/rexkirby/pen/Fdnlz?q=responsive+form&limit=all&type=type-pens
-https://www.youtube.com/watch?v=JttTcnidSdQ&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=7
-https://www.w3schools.com/howto/howto_css_social_media_buttons.asp
-https://ezgif.com/resize/ezgif-5-6ea08b2ee9.gif
-https://codepen.io/planetgrafix/pen/iGDrk?q=slideshow&limit=all&type=type-pens
-https://stackoverflow.com/questions/12243818/adding-google-translate-to-a-web-site
+https://codepen.io/dudleystorey/details/knqyK/
+https://www.w3schools.com/tags/tag_span.asp
+https://www.cssdesignawards.com/sites/pop-pays-a-year-worth-sharing/32052/
