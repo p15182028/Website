@@ -4,14 +4,18 @@ The website is informative as well as aiming to promote more tourism in the city
 # Wireframes
 ## Mobile View
 
-![](wireframes/1.jpg)
+![1](https://user-images.githubusercontent.com/34355817/34449674-e6d4b908-ecf2-11e7-9980-22599dc0f4e0.jpg)
 
 
 ## Desktop
 
-![](wireframes/image1.jpg)
-![](wireframes/image2.jpg)
-![](wireframes/image3.jpg)
+![image1](https://user-images.githubusercontent.com/34355817/34449675-e6ea10aa-ecf2-11e7-8daf-fd18a22d0c1b.jpg)
+
+
+![image2](https://user-images.githubusercontent.com/34355817/34449676-e6fee1c4-ecf2-11e7-95a5-59f13fa1bb44.jpg)
+
+
+![image3](https://user-images.githubusercontent.com/34355817/34449677-e7133a70-ecf2-11e7-8e61-3250149077a7.jpg)
 
 # Issues
 
