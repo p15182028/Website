@@ -102,7 +102,7 @@
 
  .logo {
    height:100px;
-   background-color: none;
+
    padding-top: 1px;
 
  }
@@ -211,7 +211,7 @@ li:nth-child(even) {
 
  .feedback-input:focus{
    background: #fff;
-   box-shadow: 0;
+   box-shadow: 0px 0px 10px;
    border: 3px solid #3498db;
    color: #3498db;
    outline: none;
