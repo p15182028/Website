@@ -28,19 +28,20 @@ was created and the first or second commit.
 
 HTML did not produce so many errors, but most of the errors were the similar, so it wasn't very difficult to debug. There was one typo error that was due to an extra letter in a file name.
 
-![](issues/image1.png)
+<img width="1280" alt="image1" src="https://user-images.githubusercontent.com/34355817/34449721-722d81d8-ecf3-11e7-8bb0-f93c29e08e76.png">
 
-![](issues/image2.png)
+<img width="1280" alt="image2" src="https://user-images.githubusercontent.com/34355817/34449722-724321be-ecf3-11e7-9357-20fceca1c85d.png">
 
 The CSS Validator was producing a parse error. This was because of a missing ";" in the code which was causing this error. This was fixed but showed the importance of a single missed syntax. This had not broken the website but was causing it be unexpectedly laid out.
 
-![](issues/css.jpg)
+![css](https://user-images.githubusercontent.com/34355817/34449735-998e991a-ecf3-11e7-9d27-b5cee8da3950.JPG)
 
 JavaScript Error in console because when running on chrome, google says this is a bug in the validator and edge and mozilla run without this error. Another error on the live github link is that the svg image links are not "https" therefore it is giving a "mixed content" error
 
-![](issues/js.jpg)
 
-![](issues/js2.jpg)
+![js](https://user-images.githubusercontent.com/34355817/34449749-bc00443a-ecf3-11e7-8834-d4a9adc2a81f.JPG)
+
+![js2](https://user-images.githubusercontent.com/34355817/34449750-bc1309da-ecf3-11e7-956e-672c2782d7de.JPG)
 
 
 # User Testing
