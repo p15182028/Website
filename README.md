@@ -4,15 +4,14 @@ The website is informative as well as aiming to promote more tourism in the city
 # Wireframes
 ## Mobile View
 
-![](wireframes/6.jpg)
 ![](wireframes/1.jpg)
-![](wireframes/5.jpg)
+
 
 ## Desktop
 
-![](wireframes/4.jpg)
-![](wireframes/3.jpg)
-![](wireframes/2.jpg)
+![](wireframes/image1.jpg)
+![](wireframes/image2.jpg)
+![](wireframes/image3.jpg)
 
 # Issues
 
