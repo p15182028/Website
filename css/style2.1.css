@@ -1,320 +1,327 @@
- /* Global Style  */
-  body, html{
-    height:100%;
-    margin:0;
-    font-size:16px;
-    font-family:"Lato", sans-serif;
-    font-weight:400;
-    line-height:1.8em;
-    color:#666;
-  }
+/* Global Style  */
+ body, html{
+   height:100%;
+   margin:0;
+   font-size:16px;
+   font-family:"Lato", sans-serif;
+   font-weight:400;
+   line-height:1.8em;
+   color:#666;
+ }
 
-  nav {
-  background: #fff;
-  display: none;
+ nav {
+ background: #fff;
+ display: none;
 
-  }
+ }
 
-  nav a {
-  padding: 1em;
-  display: block;
-  }
+ nav a {
+ padding: 1em;
+ display: block;
+ }
 
-  #menu {
-  padding: 1em;
-  background: #fff;
-  display: block;
+ #menu {
+ padding: 1em;
+ background: #fff;
+ display: block;
 
-  }
-  .show-menu {
-    display: block;
-  }
+ }
+ .show-menu {
+   display: block;
+ }
 
-  a {
-  color: #000;
-  text-decoration: none;
-  }
+ a {
+ color: #000;
+ text-decoration: none;
+ }
 
-  .pimg1, .pimg2, .pimg3{
-    position:relative;
-    opacity:0.70;
-    background-position:center;
-    background-size:cover;
-    background-repeat:no-repeat;
+ .pimg1, .pimg2, .pimg3{
+   position:relative;
+   opacity:0.70;
+   background-position:center;
+   background-size:cover;
+   background-repeat:no-repeat;
 
-    /*
-      fixed = parallax
-      scroll = normal
-    */
-    background-attachment:scroll;
-  }
+   /*
+     fixed = parallax
+     scroll = normal
+   */
+   background-attachment:scroll;
+ }
 
-  .pimg1{
-    background-image:url('../images/sarajevo-footer-large.jpeg');
-    min-height:100%;
-  }
+ .pimg1{
+   background-image:url('../images/sarajevo-footer-large.jpeg');
+   min-height:100%;
+ }
 
-  .pimg2{
-    background-image:url('../images/old-town-bascarsija-sarajevo.jpeg');
-    min-height:400px;
-  }
+ .pimg2{
+   background-image:url('../images/old-town-bascarsija-sarajevo.jpeg');
+   min-height:400px;
+ }
 
-  .pimg3{
-    background-image:url('../images/40916386.jpeg');
-    min-height:400px;
-  }
+ .pimg3{
+   background-image:url('../images/40916386.jpeg');
+   min-height:400px;
+ }
 
-  .section{
-    text-align:center;
-    padding:50px 80px;
-  }
+ .section{
+   text-align:center;
+   padding:50px 80px;
+ }
 
-  .section-light{
-    background-color:#f4f4f4;
-    color:#666;
-  }
+ .section-light{
+   background-color:#f4f4f4;
+   color:#666;
+ }
 
-  .section-dark{
-    background-color:#282e34;
-    color:#ddd;
-  }
+ .section-dark{
+   background-color:#282e34;
+   color:#ddd;
+ }
 
-  .ptext{
-    position:absolute;
-    top:50%;
-    width:100%;
-    text-align:center;
-    color:#000;
-    font-size:20px;
-    letter-spacing:8px;
-    text-transform:uppercase;
-  }
+ .ptext{
+   position:absolute;
+   top:50%;
+   width:100%;
+   text-align:center;
+   color:#000;
+   font-size:17px;
+   letter-spacing:8px;
+   text-transform:uppercase;
+ }
 
-  .ptext .border{
-    background-color:#111;
-    color:#fff;
-    padding:20px;
-  }
+ .ptext .border{
+   background-color:#111;
+   color:#fff;
+   padding:20px;
+ }
 
-  .ptext .border.trans{
-    background-color:transparent;
-  }
+ .ptext .border.trans{
+   background-color:transparent;
+ }
 
-  .logo {
-    height:100px;
-    background-color: none;
-    padding-top: 1px;
+ .logo {
+   height:100px;
+   background-color: none;
+   padding-top: 1px;
 
-  }
-  .logo1 {
-    padding: 10px;
-    width: 40px;
-    color:#fff;
-    letter-spacing:2px;
-  }
+ }
+ .logo1 {
+   padding: 10px;
+   width: 40px;
+   color:#fff;
+   letter-spacing:2px;
+ }
 
-  .menu-nav {
-    background-color: #595959;
-  }
+ .menu-nav {
+   background-color: #595959;
+ }
 
-  video {
-    min-width: 100%;
-    min-height: 100%;
-    max-width: 100%;
-  }
-
-
+ video {
+   min-width: 100%;
+   min-height: 100%;
+   max-width: 100%;
+ }
 
 
-  /* form --------------  -----------*/
 
-  #feedback-page{
-  	text-align:center;
-  }
 
-  #form-main{
-  	width:100%;
-  	float:left;
-  	padding-top:0px;
-  }
+ /* form --------------  -----------*/
 
-  #form-div {
-  	background-color:rgba(72,72,72,0.4);
-  	padding-left:35px;
-  	padding-right:35px;
-  	padding-top:35px;
-  	padding-bottom:50px;
-  	width: 450px;
-  	float: left;
-  	left: 50%;
-  	position: absolute;
-    margin-top:30px;
-  	margin-left: -260px;
-    -moz-border-radius: 7px;
-    -webkit-border-radius: 7px;
-  }
+ #feedback-page{
+   text-align:center;
+ }
 
-  .feedback-input {
-  	color:#3c3c3c;
-  	font-family: Helvetica, Arial, sans-serif;
-    font-weight:500;
-  	font-size: 18px;
-  	border-radius: 0;
-  	line-height: 22px;
-  	background-color: #fbfbfb;
-  	padding: 13px 13px 13px 54px;
-  	margin-bottom: 10px;
-  	width:100%;
-  	-webkit-box-sizing: border-box;
-  	-moz-box-sizing: border-box;
-  	-ms-box-sizing: border-box;
-  	box-sizing: border-box;
-    border: 3px solid rgba(0,0,0,0);
-  }
+ #form-main{
+   width:100%;
+   float:left;
+   padding-top:0px;
+ }
 
-  .feedback-input:focus{
-  	background: #fff;
-  	box-shadow: 0;
-  	border: 3px solid #3498db;
-  	color: #3498db;
-  	outline: none;
-    padding: 13px 13px 13px 54px;
-  }
+ #form-div {
+   background-color:rgba(72,72,72,0.4);
+   padding-left:35px;
+   padding-right:35px;
+   padding-top:35px;
+   padding-bottom:50px;
+   width: 450px;
+   float: left;
+   left: 50%;
+   position: absolute;
+   margin-top:30px;
+   margin-left: -260px;
+   -moz-border-radius: 7px;
+   -webkit-border-radius: 7px;
+ }
 
-  .focused{
-  	color:#30aed6;
-  	border:#30aed6 solid 3px;
-  }
+ .feedback-input {
+   color:#3c3c3c;
+   font-family: Helvetica, Arial, sans-serif;
+   font-weight:500;
+   font-size: 18px;
+   border-radius: 0;
+   line-height: 22px;
+   background-color: #fbfbfb;
+   padding: 13px 13px 13px 54px;
+   margin-bottom: 10px;
+   width:100%;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -ms-box-sizing: border-box;
+   box-sizing: border-box;
+   border: 3px solid rgba(0,0,0,0);
+ }
 
-  /* Icons ---------------------------------- */
-  #name{
-  	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
-  	background-size: 30px 30px;
-  	background-position: 11px 8px;
-  	background-repeat: no-repeat;
-  }
+ .feedback-input:focus{
+   background: #fff;
+   box-shadow: 0;
+   border: 3px solid #3498db;
+   color: #3498db;
+   outline: none;
+   padding: 13px 13px 13px 54px;
+ }
 
-  #name:focus{
-  	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
-  	background-size: 30px 30px;
-  	background-position: 8px 5px;
-    background-position: 11px 8px;
-  	background-repeat: no-repeat;
-  }
+ .focused{
+   color:#30aed6;
+   border:#30aed6 solid 3px;
+ }
 
-  #email{
-  	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
-  	background-size: 30px 30px;
-  	background-position: 11px 8px;
-  	background-repeat: no-repeat;
-  }
+ /* Icons ---------------------------------- */
+ #name{
+   background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+   background-size: 30px 30px;
+   background-position: 11px 8px;
+   background-repeat: no-repeat;
+ }
 
-  #email:focus{
-  	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
-  	background-size: 30px 30px;
-    background-position: 11px 8px;
-  	background-repeat: no-repeat;
-  }
+ #name:focus{
+   background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+   background-size: 30px 30px;
+   background-position: 8px 5px;
+   background-position: 11px 8px;
+   background-repeat: no-repeat;
+ }
 
-  #comment{
-  	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
-  	background-size: 30px 30px;
-  	background-position: 11px 8px;
-  	background-repeat: no-repeat;
-  }
+ #email{
+   background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+   background-size: 30px 30px;
+   background-position: 11px 8px;
+   background-repeat: no-repeat;
+ }
 
-  textarea {
-      width: 100%;
-      height: 150px;
-      line-height: 150%;
-      resize:vertical;
-  }
+ #email:focus{
+   background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+   background-size: 30px 30px;
+   background-position: 11px 8px;
+   background-repeat: no-repeat;
+ }
 
-  input:hover, textarea:hover,
-  input:focus, textarea:focus {
-  	background-color:white;
-  }
+ #comment{
+   background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+   background-size: 30px 30px;
+   background-position: 11px 8px;
+   background-repeat: no-repeat;
+ }
 
-  #button-blue{
-  	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  	float:left;
-  	width: 100%;
-  	border: #fbfbfb solid 4px;
-  	cursor:pointer;
-  	background-color: #3498db;
-  	color:white;
-  	font-size:24px;
-  	padding-top:22px;
-  	padding-bottom:22px;
-  	-webkit-transition: all 0.3s;
-  	-moz-transition: all 0.3s;
-  	transition: all 0.3s;
-    margin-top:-4px;
-    font-weight:700;
-  }
+ textarea {
+     width: 100%;
+     height: 150px;
+     line-height: 150%;
+     resize:vertical;
+ }
 
-  #button-blue:hover{
-  	background-color: rgba(0,0,0,0);
-  	color: #0493bd;
-  }
+ input:hover, textarea:hover,
+ input:focus, textarea:focus {
+   background-color:white;
+ }
 
-  .submit:hover {
-  	color: #3498db;
-  }
+ #button-blue{
+   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+   float:left;
+   width: 100%;
+   border: #fbfbfb solid 4px;
+   cursor:pointer;
+   background-color: #3498db;
+   color:white;
+   font-size:24px;
+   padding-top:22px;
+   padding-bottom:22px;
+   -webkit-transition: all 0.3s;
+   -moz-transition: all 0.3s;
+   transition: all 0.3s;
+   margin-top:-4px;
+   font-weight:700;
+ }
 
-  .ease {
-  	width: 0px;
-  	height: 74px;
-  	background-color: #fbfbfb;
-  	-webkit-transition: .3s ease;
-  	-moz-transition: .3s ease;
-  	-o-transition: .3s ease;
-  	-ms-transition: .3s ease;
-  	transition: .3s ease;
-  }
+ #button-blue:hover{
+   background-color: rgba(0,0,0,0);
+   color: #0493bd;
+ }
 
-  .submit:hover .ease{
-    width:100%;
-    background-color:white;
-  }
+ .submit:hover {
+   color: #3498db;
+ }
 
-  @media only screen and (max-width: 580px) {
-  	#form-div{
-  		left: 3%;
-  		margin-right: 3%;
-  		width: 88%;
-  		margin-left: 0;
-  		padding-left: 3%;
-  		padding-right: 3%;
-  	}
+ .ease {
+   width: 0px;
+   height: 74px;
+   background-color: #fbfbfb;
+   -webkit-transition: .3s ease;
+   -moz-transition: .3s ease;
+   -o-transition: .3s ease;
+   -ms-transition: .3s ease;
+   transition: .3s ease;
+ }
+
+ .submit:hover .ease{
+   width:100%;
+   background-color:white;
+ }
+
+ @media only screen and (max-width: 580px) {
+   #form-div{
+     left: 3%;
+     margin-right: 3%;
+     width: 88%;
+     margin-left: 0;
+     padding-left: 3%;
+     padding-right: 3%;
+   }
+ }
 
 
 @media (min-width: 768px) {
-  .pimg1, .pimg2, .pimg3{
-    background-attachment:fixed;
-  }
-  nav a {
-    width: 44%;
-    display: inline-block;
-  }
-  nav a:hover {
-    background: #777;
-  }
-  
+ .pimg1, .pimg2, .pimg3{
+   background-attachment:fixed;
+ }
+ nav a {
+   width: 44%;
+   display: inline-block;
+ }
+ nav a:hover {
+   background: #777;
+ }
+ .ptext{
+   font-size:20px;
+ }
+
 
 }
 
 @media (min-width: 1024px) {
-  nav {
-    display: block;
-  }
-  nav a {
-    line-height: 3em;
-    width: inherit;
-  }
-  #menu {
-    display: none;
-  }
+ nav {
+   display: block;
+ }
+ nav a {
+   line-height: 3em;
+   width: inherit;
+ }
+ #menu {
+   display: none;
+ }
+ .ptext{
+   font-size:27px;
+ }
 
 
 }
