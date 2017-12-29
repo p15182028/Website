@@ -80,9 +80,6 @@ body, html{
 }
 
 
-
-
-
 a {
   text-decoration: none;
   padding-bottom: 5px;
@@ -91,8 +88,9 @@ a {
 
 
 .logo {
-  height:60px;background:
-  rgb(51,74,92);padding-top: 1px;
+  height:60px;
+  background-color: :#595959;
+  padding-top: 1px;
 
 }
 .logo1 {
@@ -102,12 +100,14 @@ a {
   letter-spacing:2px;
 }
 
-nav {
-  background-color: rgb(51,74,92);
+.menu-nav {
+  background-color: #595959;
 }
 
-.menu-nav {
-  background-color: rgb(51,74,92);
+@media (min-width: 480px) {
+  .nav-list {
+    display: block;
+  }
 }
 
 ul {
@@ -117,7 +117,11 @@ ul {
   padding: 0;
   overflow: hidden;
   /*background-color: #98bf21;*/
-  background-color: rgb(51,74,92);
+  background-color: #595959;
+}
+
+li {
+  float: left;
 }
 
 a:link, a:visited {
@@ -135,55 +139,172 @@ a:hover, a:active {
   /*background-color: rgba(19, 78, 124, 1);*/
 }
 
-li {
-  float: left;
-}
-
 video {
   min-width: 100%;
   min-height: 100%;
   max-width: 100%;
 }
 
-.visit {
-  float: right;
-  /*border-bottom: solid 1px;*/
-  width: 50%;
+
+/* form --------------  -----------*/
+
+#feedback-page{
+	text-align:center;
 }
 
-
-.activities {
-  float: left;
-  /*border-bottom: solid 1px;*/
-  width: 50%;
+#form-main{
+	width:100%;
+	float:left;
+	padding-top:0px;
 }
 
-img {
-
-  min-width: 100%;
-  min-height: 100%;
-  max-width: 100%;
-  padding: 5px;
+#form-div {
+	background-color:rgba(72,72,72,0.4);
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	width: 450px;
+	float: left;
+	left: 50%;
+	position: absolute;
+  margin-top:30px;
+	margin-left: -260px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
 }
 
-.arriving {
-  background: rgba(0, 0, 0, 0);
+.feedback-input {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
 }
 
-.plane {
-  width: 500px;
-  float: left;
-  margin-left: 100px;
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #3498db;
+	color: #3498db;
+	outline: none;
+  padding: 13px 13px 13px 54px;
 }
 
-.plane {
-  text-align: center;
+.focused{
+	color:#30aed6;
+	border:#30aed6 solid 3px;
 }
-.bus {
-  text-align: center;
+
+/* Icons ---------------------------------- */
+#name{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
 }
-.bus {
-  width: 500px;
-  float: right;
-  margin-right: 100px;
+
+#name:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#comment{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
+
+#button-blue{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 100%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: #3498db;
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+#button-blue:hover{
+	background-color: rgba(0,0,0,0);
+	color: #0493bd;
+}
+
+.submit:hover {
+	color: #3498db;
+}
+
+.ease {
+	width: 0px;
+	height: 74px;
+	background-color: #fbfbfb;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+
+@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
 }
