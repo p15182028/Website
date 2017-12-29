@@ -1,19 +1,18 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html >
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content=
-    "text/html; charset=utf-8" >
-    <meta http-equiv="Content-Style-Type" content="text/css" >
+    <meta charset="UTF-8" />
+
     <title>
       Visit Sarajevo
     </title>
     <meta name="Generator" content="Cocoa HTML Writer" >
     <meta name="CocoaVersion" content="1504.83" >
-    <link rel="stylesheet" href="css/style2.1.css" type="text/css" >
+    <link rel="stylesheet" href="css/style.css" type="text/css" >
   </head>
   <body>
     <div class="menu-nav">
-      <div class="logo" >
+      <div class="logo">
         <h2 class="logo1">
           Visit Sarajevo
         </h2>
@@ -27,13 +26,12 @@
       <a class="going" href="#arriving">Arriving</a>
     </nav>
     </div>
+
     <section>
       <video id:"bgvid" playsinline autoplay muted loop>
         <source src="videos/Sarajevo TL Loop.mp4" type="video/mp4">
       </video>
     </section>
-
-
     <section class="section section-light" id="profile">
       <h3>
         Coming to Sarajevo is always a good
@@ -162,6 +160,18 @@
           BAM
         </p>
 
+        <h1>Search Wikipedia</h1>
+
+        <form id="searchForm">
+          <label for="wikiQuery">Search Wikipedia for: </label>
+          <input id="wikiQuery" type="text" placeholder="sarajevo restaurants">
+          <input type="submit">
+        </form>
+
+        <ul id="demo"></ul>
+
+  <script src="js/xmlhttp.js"></script>
+
     </section>
 
     <div class="pimg1">
@@ -195,8 +205,29 @@
       </div>
     </form>
   </div>
+</div>
 
-  <script src="js/script.js"></script>
+
+<footer>
+  <ul>
+    <li>
+      <a href="#profile">Profile</a>
+    </li>
+    <li>
+      <a href="#discover">Discover Sarajevo</a>
+    </li>
+    <li>
+      <a href="#enjoy">Enjoy Sarajevo</a>
+    </li>
+    <li>
+      <a href="#arriving">Arriving</a>
+    </li>
+  </ul>
+</footer>
+
+
+<script src="javascript/xmlhttp.js"></script>
+<script src="js/script.js"></script>
 
   </body>
 </html>
