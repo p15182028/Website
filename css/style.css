@@ -34,11 +34,22 @@ p {
 }
 
 .logo {
+  height:60px;background:
+  rgb(51,74,92);padding-top: 1px;
+
+}
+.logo1 {
   padding: 10px;
   width: 40px;
+  color:#fff;
+  letter-spacing:2px;
 }
 
 nav {
+  background-color: rgb(51,74,92);
+}
+
+.menu-nav {
   background-color: rgb(51,74,92);
 }
 
@@ -54,7 +65,7 @@ ul {
 
 a:link, a:visited {
   display:block;
-  front-weight:bold;
+  font-weight:bold;
   color: #FFFFFF;
   /*background-color: #98bf21;*/
   width: 180px;
@@ -105,6 +116,10 @@ img {
   min-height: 100%;
   max-width: 100%;
   padding: 5px;
+}
+
+.arriving {
+  background: rgba(0, 0, 0, 0);
 }
 
 .plane {
