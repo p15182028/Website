@@ -1,9 +1,20 @@
-$(document).ready(function() {
-  $('ul.form li a').click(
-    function(e) {
-      e.preventDefault(); // prevent the default action
-      e.stopPropagation; // stop the click from bubbling
-      $(this).closest('ul').find('.selected').removeClass('selected');
-      $(this).parent().addClass('selected');
-    });
-});
+(function(){
+
+  let menuButton = document.getElementById("menu");
+  let navMenu = document.getElementById("nav-menu");
+
+  menuButton.addEventListener("click", toggleMenu);
+
+  let toggle = false; // hidden at first
+  function toggleMenu(){
+    if (toggle) { // true: it's visible
+      navMenu.classList.remove("show-menu"), // hide it
+      toggle = false
+    }
+    else { // false: it's hidden
+      navMenu.classList.add("show-menu"), // show it
+      toggle = true
+    }
+  }
+
+})();
